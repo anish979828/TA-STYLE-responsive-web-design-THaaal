@@ -1,0 +1,132 @@
+<!-- writeCode
+
+- Create a responsive layout according to the design shown below.
+
+#### Large Screen view(Above 768px)
+
+![Responsive Layout Assignment](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/rwd/ex-1-desktop-view.png)
+
+#### Small Screen view(Below 768px)
+
+![Responsive Layout Assignment](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/rwd/ex-1-mob-view.png)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Pay attention to the codes, your code quality matters a lot.
+
+- Try to implement the layout as exactly as it has been provided in the design.
+
+- Pay attention to minor things like spacing, alignment, size, etc.
+
+- Use any font-family which suits better for the assignment.
+
+- Once you are done with the assignment connect with the mentor and get the code reviewed. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title  -->
+    <title>Responsive Design</title>
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/53765f52cd.js" crossorigin="anonymous"></script>
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- header  -->
+    <header>
+        <section class="navbar">
+            <div class="container flex">
+                <div>
+                    <a href="#">
+                        <img src="./assets/logo.png" alt="logo">
+                    </a>
+                </div>
+                <nav>
+                    <ul class="nav-flex">
+                        <li>
+                            <a href="#">HOME</a>
+                        </li>
+                        <li>
+                            <a class="active" href="#">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="#">BLOG</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="hero">
+            <div class="container flex">
+                <div class="flex-48">
+                    <h1>What is Lorem ipsum?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt itaque aperiam iste aliquam, ullam sint incidunt consequuntur deleniti animi error tenetur nihil perspiciatis, repellendus quas quam! Fuga, ducimus perspiciatis! Perspiciatis?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, odio. Commodi expedita omnis ipsa, dolores non ratione est culpa explicabo beatae maxime, excepturi maiores officia quia sed perspiciatis ut dolorum?
+                    </p>
+                    <button class="btn">Read More</button>
+                </div>
+                <figure class="flex-48">
+                    <img src="./assets/01.png" alt="hero">
+                </figure>
+            </div>
+        </section>
+    </header>
+    <!-- main  content  -->
+    <main>
+        <!-- blog section  -->
+        <section class="blog">
+            <h3>Our Blog</h3>
+            <div class=" container flex">
+                <article class="flex-30">
+                    <figure>
+                        <img src="./assets/02.png" alt="img">
+                    </figure>
+                    <h2>Why do we use it?</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatem dolorum nobis, tempore tempora alias hic suscipit eius laborum libero ipsum itaque, autem natus quae eligendi ducimus maiores ipsa cupiditate?</p>
+                    <button class="btn">Read More</button>
+                </article>
+                <article class="flex-30">
+                    <figure>
+                        <img src="./assets/03.png" alt="img">
+                    </figure>
+                    <h2>Why do we use it?</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatem dolorum nobis, tempore tempora alias hic suscipit eius laborum libero ipsum itaque, autem natus quae eligendi ducimus maiores ipsa cupiditate?</p>
+                    <button class="btn">Read More</button>
+                </article>
+                <article class="flex-30">
+                    <figure>
+                        <img src="./assets/04.png" alt="img">
+                    </figure>
+                    <h2>Why do we use it?</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatem dolorum nobis, tempore tempora alias hic suscipit eius laborum libero ipsum itaque, autem natus quae eligendi ducimus maiores ipsa cupiditate?</p>
+                    <button class="btn">Read More</button>
+                </article>
+            </div>
+        </section>
+    </main>
+    <!-- footer  -->
+    <footer>
+        <div class="container flex">
+            <small>&copyAltcampus</small>
+            <nav>
+                <ul class="nav-flex">
+                    <li>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
+
